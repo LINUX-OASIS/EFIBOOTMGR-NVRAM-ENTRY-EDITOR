@@ -1,4 +1,4 @@
-#  UEFI NVRAM Boot Entry Editor  UEFI-TUI  UEFI-TUI  UEFI-TUI
+# UEFI NVRAM Boot Entry Editor
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Desktop Computer" width="120" height="120" />
@@ -18,23 +18,22 @@
     <!-- Language -->
     <img src="https://img.shields.io/badge/Language-Bash-blueviolet" alt="Language: Bash">
     <!-- PRs Welcome -->
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+    <a href="https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/pulls">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+    </a>
     <!-- OS -->
     <img src="https://img.shields.io/badge/OS-Linux%20(UEFI)-yellow.svg" alt="OS: Linux (UEFI)">
     <!-- Distros -->
     <img src="https://img.shields.io/badge/Distros-Debian%20%7C%20Ubuntu%20%7C%20Mint-orange" alt="Distros">
-</p>
-
-<p align="center">
-    <!-- GitHub Repo specific badges - will work once repo is public -->
-    <a href="https://github.com/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR/issues">
-        <img src="https://img.shields.io/github/issues/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub issues">
+    <!-- GitHub Repo specific badges -->
+    <a href="https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/issues">
+        <img src="https://img.shields.io/github/issues/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub issues">
     </a>
-    <a href="https://github.com/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR/stargazers">
-        <img src="https://img.shields.io/github/stars/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub stars">
+    <a href="https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/stargazers">
+        <img src="https://img.shields.io/github/stars/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub stars">
     </a>
-    <a href="https://github.com/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR/network/members">
-        <img src="https://img.shields.io/github/forks/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub forks">
+    <a href="https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/network/members">
+        <img src="https://img.shields.io/github/forks/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR" alt="GitHub forks">
     </a>
 </p>
 
@@ -45,6 +44,7 @@
 This script simplifies the often-complex task of managing UEFI boot entries by providing a guided, interactive `whiptail` interface.
 
 -   **Create Boot Entries**: Interactively scan for partitions (`vfat`, `iso9660`) and `.efi` files to create new, custom boot entries.
+
 ## 🖥️ Compatibility
 
 This script is designed for **Linux distributions running on UEFI-based systems**. It uses the `apt` package manager for dependency installation.
@@ -68,8 +68,8 @@ The script requires the following tools to be installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/LINUX-OASIS/custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR.git
-    cd custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR
+    git clone https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR.git
+    cd EFIBOOTMGR-NVRAM-ENTRY-EDITOR
     ```
 
 2.  **Make the script executable:**
@@ -89,22 +89,21 @@ The script requires the following tools to be installed:
 
 ## 📜 License
 
-This project is licensed under the **GNU General Public License v3.0**. See the LICENSE file for details.
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
 
 ## 💬 Contributing
 
-Pull requests, issues, and suggestions are warmly welcomed! For major changes, please open an issue first to discuss what you would like to change.
+Pull requests, issues, and suggestions are warmly welcomed! For major changes, please [open an issue](https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/issues) first to discuss what you would like to change.
 
-See CONTRIBUTING.md for guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 🌐 Links
 
-*   Issues
-*   Pull Requests
-*   Releases
-*   Wiki
+- [Issues](https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/issues)
+- [Pull Requests](https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/pulls)
+- [Releases](https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/releases)
+- [Wiki](https://github.com/LINUX-OASIS/EFIBOOTMGR-NVRAM-ENTRY-EDITOR/wiki)
 
 ## 🧙‍♂️ Maintainer
 
-This project is maintained by **LINUX-OASIS**.
-
+This project is maintained by [LINUX-OASIS](https://github.com/LINUX-OASIS).
