@@ -74,13 +74,13 @@ The script requires the following tools to be installed:
 
 2.  **Make the script executable:**
     ```bash
-    chmod +x custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR.sh
+    chmod +x custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR
     ```
 
 3.  **Run the script with `sudo`:**
     `efibootmgr` requires root privileges to modify NVRAM variables. The script will prompt you to re-run with `sudo` if you forget.
     ```bash
-    sudo ./custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR.sh
+    sudo ./custom-EFIBOOTMGR-NVRAM-ENTRY-EDITOR
     ```
 
 4.  Follow the on-screen menus to manage your boot entries!
